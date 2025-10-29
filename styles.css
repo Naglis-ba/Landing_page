@@ -1,0 +1,104 @@
+.header {
+            padding: 60px;
+            text-align: center;
+            background: #000536;
+            color: white;
+            font-size: 30px;
+        }
+
+.top{
+
+    background-color: #00065f;
+    padding-left: 15%;
+    padding-right: 15%;
+     align-items: center;
+     display: flex;
+    height: 300px;
+
+}
+.top-bar {
+      background-color: #00065f;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between; /* space between text and buttons */
+      align-items: center;
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+.top-bar h1 {
+      margin: center;
+      font-size: 1.2rem;
+      color: #ffffff;
+    }
+
+    .nav-links a {
+      text-decoration: none;       /* removes underline */
+      color: #ffffff;              /* blue link color */
+      margin-left: 15px;           /* space between links */
+      font-weight: 500;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;  /* show underline on hover */
+    }
+
+
+.text-section {
+  flex: 1;                        /* takes up half or available space */
+  color: white;
+  padding-right: 10%;
+}
+.image-section {
+  flex: 1;
+  display: flex;                  /* to center the placeholder image */
+  justify-content: center;
+  align-items: center;
+  background-color: #6b7280;      /* gray placeholder color */
+  height: 200px;                  /* adjust as needed */
+}
+
+
+    button {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+.Mid {
+
+    height: 400px;
+    background-color: #ffffff;
+    align-items: center;
+    padding-bottom: 30%;
+}
+.subtext{
+    align-items: center;
+    width: 100px;
+    padding-bottom: 100px;
+
+}
+.Mid h2 {
+      margin: center;
+      font-size: 1.2rem;
+      color: #000000;
+        text-align: center;
+        padding: 1%;
+    }
+
+.boxes{
+
+  display: flex;                 /* side by side */
+  justify-content: space-between;
+  align-items: flex-start;       /* top align */ 
+    padding-right: 20%;
+    padding-left: 20%;
+    
+}
+.square {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  border: 2px solid #007BFF ;        /* adds outline */
+}
