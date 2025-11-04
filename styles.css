@@ -23,13 +23,16 @@ body {
         }
 
 .top{
-
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 15%;
+  flex-wrap: wrap;
+  gap: 40px;  
     background-color: #1f2937;
     padding-left: 15%;
     padding-right: 15%;
-     align-items: center;
-     display: flex;
-    height: 300px;
+    height: 350px;
 
 }
 .top h2{
@@ -45,6 +48,31 @@ body {
 
 
 }
+
+.in_top{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+
+}
+
+.text-section {                      
+  color: white;
+  padding-right: 20%;
+  height: auto;
+ 
+}
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
 .top-bar {
       background-color: #1f2937;
       padding: 10px 20px;
@@ -63,7 +91,7 @@ body {
     .nav-links a {
       text-decoration: none;       
       color: #ffffff;             
-      margin-left: 15px;           
+      margin-left: 20px;           
       font-weight: 500;
     }
 
@@ -72,19 +100,6 @@ body {
     }
 
 
-.text-section {
-  flex: 1;                       
-  color: white;
-  padding-right: 10%;
-}
-.image-section {
-  flex: 1;
-  display: flex;                 
-  justify-content: center;
-  align-items: center;
-  background-color: #6b7280;      
-  height: 200px;                  
-}
 
 
     button {
@@ -119,9 +134,10 @@ body {
 
 .Mid h2 {
       margin: center;
-      font-size: 1.2rem;
-      color: #000000;
+      font-size: 24px;
+      color: #1f2937;
         text-align: center;
+      padding-bottom: 3%;
     }
 
 .boxes{
